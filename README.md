@@ -69,25 +69,20 @@ directly.
 2) You do not have write access (open source, partner repo): fork on GitHub, then
 clone your fork.
 ### 2.1 For today's exercise
-1. Show the class the instructor repo on GitHub (for example,
-`https://github.com/<your-org>/git-demo-class`).
-2. Ask: "Given that you only need to read the code, should you clone directly or
-fork first?" Let a few students reason it out.
-3. Explain that even though cloning would technically work, you want them to fork
-so they gain experience pushing to their own copy.
-4. Walk through the fork + clone steps:
+1. Go to: `[https://github.com/<your-org>/git-demo-class](https://github.com/Stat386-Winter-2026/Git_demo)`.
+2. Determine whether you should clone directly or fork the repo.
+3. Walk through the fork + clone steps:
 - Click **Fork** in GitHub, keep the default settings.
-- Copy the SSH URL from *their* fork (not the instructor repo).
+- Copy the SSH URL from *your* fork (not the instructor repo).
 - In the terminal:
 ```bash
-git clone git@github.com:<student-username>/git-demo-class.git
-cd git-demo-class
+git clone git@github.com:<student-username>/Git-demo.git
+cd Git-demo
 git remote -v
 ```
-5. Point out that `origin` now points to their fork. If they need the upstream
-link, add it with `git remote add upstream git@github.com:<instructor>/git-demo-
-class.git`.
-6. Remind them they can still pull upstream changes later with `git fetch upstream
+4. `origin` now points to your fork. If you need the upstream
+link, add it with `git remote add upstream git@github.com:Stat386-Winter-2026/Git_demo.git`.
+5. You can still pull upstream changes later with `git fetch upstream
 && git merge upstream/main`.
 ## 3. Quick local Git demo (8 to 10 minutes)
 ### 3.1 Create a fresh demo repo
