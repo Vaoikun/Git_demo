@@ -69,7 +69,7 @@ directly.
 2) You do not have write access (open source, partner repo): fork on GitHub, then
 clone your fork.
 ### 2.1 For today's exercise
-1. Go to: `[https://github.com/<your-org>/git-demo-class](https://github.com/Stat386-Winter-2026/Git_demo)`.
+1. Go to: `https://github.com/Stat386-Winter-2026/Git_demo`.
 2. Determine whether you should clone directly or fork the repo.
 3. Walk through the fork + clone steps:
 - Click **Fork** in GitHub, keep the default settings.
